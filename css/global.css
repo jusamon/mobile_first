@@ -1,0 +1,7 @@
+body {
+    font-family: 'Sora', sans-serif;
+}
+
+.header {
+    color: var(--error-500);
+}
