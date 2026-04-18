@@ -12,6 +12,25 @@
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    <header class="header"></header>
+    <header class="header">
+        <div class="header__brand">
+            <img class="header__logo" src="assets/logo.svg" alt="Flora Sheen Porfolio" />
+            <span class="header__title">Personal</span>
+        </div>
+        <button aria-label="Toggle Menu" class="header__toggle">
+                <img src="assets/toggle.svg" alt="Hamburguer Menu">
+        </button>
+
+        <nav class="header__nav">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+
+        <button class="header__cta" aria-label="Download resume">Resume</button>
+    </header>
 </body>
 </html>
