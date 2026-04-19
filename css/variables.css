@@ -25,4 +25,13 @@
     --spacing-32: 32px;
     --spacing-36: 36px;
     --spacing-40: 40px;
+
+    --outline-width: 2px;
+
+}
+
+@media (min-width: 768px) {
+    :root {
+        --outline-width: 2px;
+    }
 }
